@@ -15,7 +15,7 @@ public class UploadFile {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//textarea[@id='field-ZLU4n03fXhsg9kn']")).sendKeys("Hi Mallesh");
 		Thread.sleep(3000);
-		//driver.findElement(By.xpath("//input[@id='field-ioa3T81OSsEXwhP']")).sendKeys("F:\\Reddy Doc\\Test.JPG");
+		driver.findElement(By.xpath("//input[@id='field-ioa3T81OSsEXwhP']")).sendKeys("F:\\Purushotham\\Test.JPG");
 		
 	}
 	
