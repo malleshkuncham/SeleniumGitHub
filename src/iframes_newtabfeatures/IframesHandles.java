@@ -15,14 +15,14 @@ public class IframesHandles {
 	@Test
 	public void frames() throws InterruptedException {
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-		Thread.sleep(3000);
+		Thread.sleep(25000);
 		
 	/*	WebElement tryit = driver.findElement(By.id("iframeResult"));
 		driver.switchTo().frame(tryit); */
 		
 		driver.switchTo().frame("iframeResult");
 		
-	//	driver.switchTo().frame(2);
+	//	driver.switchTo().frame(5);
 		Thread.sleep(3000);
 
 		driver.findElement(By.xpath("/html/body/button")).click();
