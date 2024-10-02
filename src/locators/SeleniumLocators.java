@@ -24,7 +24,7 @@ class SeleniumLocators {
 	@Disabled
 	@Test
 	void idnameclassnamecssselector() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(90000);
 		driver.get("http://hyderabadreport.com/user");
 		Thread.sleep(2000);
 		
