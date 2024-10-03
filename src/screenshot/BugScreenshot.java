@@ -23,7 +23,7 @@ WebDriver driver;
 	
 	
 	@Test
-	public void googlesearch() throws Exception {
+	public void google() throws Exception {
 		driver.get("https://www.google.com/");		
 		
 		try 
