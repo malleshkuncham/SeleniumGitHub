@@ -12,12 +12,12 @@ public class TestNG_Invocation_Count {
 	
 	@Test
 	public void google() {
-		driver.get("https://www.google.com");
+		driver.get("https://www.google.com/");
 	}
 	
 	@Test(invocationCount=3)
 	public void selenium() {
-		driver.get("https://www.selenium.dev");
+		driver.get("https://www.selenium.dev/");
 	}
 	
 	
