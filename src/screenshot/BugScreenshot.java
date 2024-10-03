@@ -25,7 +25,6 @@ WebDriver driver;
 	@Test
 	public void google() throws Exception {
 		driver.get("https://www.google.com/");		
-		
 		try 
 		{
 		driver.findElement(By.name("q")).sendKeys("Selenium with Java");
